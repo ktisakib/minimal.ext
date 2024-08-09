@@ -1,0 +1,245 @@
+/* Code comment style */
+.line-numbers {
+    position: relative !important;
+    width: 35px !important;
+    font-size: 16px !important;
+    font-family: 'Geist Mono' !important;
+    opacity: .3;
+}
+
+/* Code canvas top shadow */
+.monaco-editor .scroll-decoration {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important;
+    top: -6px !important;
+}
+
+/* Toolbars when tabs are enabled. */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+    display: none !important;
+}
+
+/* Side bar */
+.part.sidebar {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+}
+
+/* File Explorer Selected Item */
+.monaco-list.list_id_1 .monaco-list-row.selected {
+    background-color: #2a2b38 !important;
+    opacity: 1 !important;
+    border-top: 1px #727b90 solid;
+    border-bottom: 1px #727b90 solid;
+}
+
+/* List item label name */
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+/* File explorer action buttons */
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+    display: none;
+}
+
+/* File Explorer Item Label */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row
+.monaco-icon-label .label-name {
+    font-family: 'Geist Mono'!important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #FFF !important;
+}
+
+/* Sidebar top shadow */
+.monaco-scrollable-element>.shadow.top {
+    box-shadow: 0px 0px 10px rgba(0,0,0,.75) !important;
+    top: -3px !important;
+}
+
+/* Sidebar title */
+.composite.title {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-items: center !important;
+}
+.composite.title h2 {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    color: #FFF !important;
+}
+
+.composite.title h2::before {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 1.1rem;
+    content: 'X';
+}
+
+/* Scroll Bar */
+.slider {
+    position: absolute !important;
+    right: 4px !important;
+    width: 4px !important;
+    border-radius: 8px;
+    background: #fff !important;
+    left: auto !important;
+}
+
+.codicon-toolbar-more, .codicon-word-wrap {
+    display: block !important;
+}
+
+/* Tooltip box style */
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
+    padding: 10px !important;
+    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+    border: none !important
+}
+
+/* Project title's style at the top. */
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Project Title */
+.titlebar-left {
+    color:#3decf3 !important;
+    justify-content: flex-start !important;
+    flex-grow: 0 !important;
+    width: auto !important;
+}
+.title {
+    color:#3decf3 !important;
+}
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center{
+    max-width: unset !important;
+    width:100% ;
+    position: absolute;
+}
+
+/* Search Label */
+.search-label {
+    font-family: 'Geist Mono' !important;
+    font-size: 14px !important;
+    color: #3decf3;
+    display: block;
+}
+
+/* Search icon */
+ .search-icon {
+    display: none !important;
+}
+
+ .codicon-search::before {
+    display: none !important;
+}
+
+.codicon-arrow-right, .codicon-arrow-left {
+    display: none !important;
+}
+
+.titlebar-right > * {
+    width: 0;
+    display: none !important;
+}
+
+/* Command Palette */
+.quick-input-widget {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
+    padding: 10px 10px 18px 10px !important;
+    background-image: linear-gradient(#155266 0%, #5f113e 100%) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+}
+
+
+/* Remove background for lists */
+.monaco-list-rows {
+    background: transparent !important;
+}
+/* List hover */
+.monaco-list-row:hover {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+    background: none !important;
+}
+
+.monaco-list-row.focused {
+    background-color: rgb(181 198 228 / 25%) !important;
+} */
+
+.synthetic-focus {
+    outline-color: rgba(50, 50, 50, 1) !important;
+}
+
+ .quick-input-widget .monaco-label {
+    font-size: 11px !important;
+
+}
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+    border-radius: 12px !important;
+    padding: 8px !important;
+    border: none !important;
+    background-color: rgba(34, 34, 34, .40) !important;
+    font-family: "Geist Mono" !important;
+    font-size: 14px !important;
+    margin-bottom: 16px !important;
+}
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+}
+
+/* Command palette's input box placeholder. */
+.monaco-inputbox input::placeholder {
+    color: rgba(255, 255, 255, .3) !important;
+}
+
+.monaco-workbench label {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+/* Container that holds the VS Code home icon. */
+.editor-group-watermark {
+    max-width: none !important;
+}
+
+.command-center-center {
+    width:  auto !important;
+}
+
+
+.find-widget{
+
+}
+
+
+.letterpress {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='1080' viewBox='0 0 1920 1080' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_i_8_5)'%3E%3Cpath d='M1017.11 570.541C1015.46 572.88 1015.41 575.985 1016.97 578.383L1127.1 747.83L1006.35 601.216C1003.42 597.647 997.886 597.857 995.226 601.637L846.501 813L1098.03 398.616C1100.39 394.733 1098.48 389.668 1094.14 388.306L843.013 309.397C836.751 307.43 831.469 314.387 835.045 319.89L945.813 490.327L773.52 283.472C769.187 278.27 774.029 270.559 780.597 272.201L1150.3 364.665C1155.07 365.857 1157.16 371.463 1154.33 375.483L1017.11 570.541Z' fill='white' stroke='white' style='fill:white;fill-opacity:1;stroke:white;stroke-opacity:1;'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_i_8_5' x='761.367' y='271.475' width='394.743' height='551.813' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dx='-24' dy='11'/%3E%3CfeGaussianBlur stdDeviation='5'/%3E%3CfeComposite in2='hardAlpha' operator='arithmetic' k2='-1' k3='1'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49 0'/%3E%3CfeBlend mode='normal' in2='shape' result='effect1_innerShadow_8_5'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A") !important;
+    background-repeat: no-repeat no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+    width: 80% !important;
+}
